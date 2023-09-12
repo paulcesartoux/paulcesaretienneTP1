@@ -9,7 +9,7 @@ export class SquareComponent implements OnInit {
 
   @Output() color = new EventEmitter();
 
-  public addEventColor(squareColor : String){
+  public addEventColor(squareColor : string){
     this.color.emit(squareColor);
   }
 
