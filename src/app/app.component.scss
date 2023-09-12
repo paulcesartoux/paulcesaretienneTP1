@@ -10,9 +10,10 @@ footer{
     height:50px;
     width:100vw;
     text-align:center;
-    position:fixed;
-    bottom:0
   }
 
-/* body{background-color: {{color}};
-} */
+  body{
+    /* background-color: {{color}}; */
+    height:100vh;
+    width:100vw;
+  }
