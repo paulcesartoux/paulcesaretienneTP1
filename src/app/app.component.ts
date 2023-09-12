@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'paulcesaretienneTP1';
+  color='white';
+
+  getColor(colorValue : string){
+    this.color=colorValue
+  }
 }
