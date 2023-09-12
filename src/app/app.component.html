@@ -1,10 +1,10 @@
 
   <header>HEADER</header>
 
-  <div class="height" id="{{color}}">
+  <div id="height" [ngClass]="color">
 
     <app-square (color)="getColor($event)"></app-square>
-    
+
   </div>
 
   <footer>FOOTER</footer>

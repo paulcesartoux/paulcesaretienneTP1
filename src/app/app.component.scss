@@ -1,7 +1,7 @@
 body{
 
     *{max-width: 100%;}
-    
+
 }
 header{
     background-color:blueviolet;
@@ -19,27 +19,27 @@ footer{
   }
 
 
-#white{
+.white{
     background-color: white;
 }
 
-#red{
+.red{
     background-color: red;
 }
 
-#blue{
+.blue{
     background-color:blue;
 }
 
-#green{
+.green{
 background-color: green;
 }
 
-#yellow{
+.yellow{
     background-color: yellow;
 }
 
-.height{
+#height{
     position: sticky;
     height : calc(100vh - 100px);
 }
