@@ -6,9 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public color : string ='white';
+  public backgroundColor : string ='white';
+  colors:string[] = ["red","green","blue","yellow"];
 
-  getColor(colorValue : string){
-    this.color=colorValue
+  getColor(colorValue : any){
+    console.log(colorValue)
+    this.backgroundColor=colorValue
   }
 }

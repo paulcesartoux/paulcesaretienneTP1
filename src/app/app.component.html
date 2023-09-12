@@ -1,10 +1,16 @@
 
   <header>HEADER</header>
 
-  <div id="height" [ngClass]="color">
-
-    <app-square (color)="getColor($event)"></app-square>
-
+  <div id="height" [ngClass]="backgroundColor">
+    <div class="container">
+      <div class="square">
+        <app-small-square
+          (newColor) = "getColor($event)"
+          *ngFor="let color of colors"
+          [color]="color"
+        ></app-small-square>
+      </div>
+    </div>
   </div>
 
   <footer>FOOTER</footer>
