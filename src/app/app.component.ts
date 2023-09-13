@@ -9,7 +9,7 @@ export class AppComponent {
   public backgroundColor : string ='white';
   colors:string[] = ["red","green","blue","yellow"];
 
-  getColor(colorValue : any){
+  getColor(colorValue : string){
     console.log(colorValue)
     this.backgroundColor=colorValue
   }
