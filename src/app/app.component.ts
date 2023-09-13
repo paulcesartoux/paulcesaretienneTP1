@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public backgroundColor : string ='white';
-  colors:string[] = ["red","green","blue","yellow"];
+  public colors : string[] = ["red","green","blue","yellow"];
 
   getColor(colorValue : string){
     console.log(colorValue)
